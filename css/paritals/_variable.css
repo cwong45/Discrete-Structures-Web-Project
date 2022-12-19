@@ -1,0 +1,24 @@
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/* CSS variables */
+
+:root{
+    --cinnamoroll-pink: #fbcdcf;
+    --cinnamoroll-blue: #57c2ed;
+    --cinnamoroll-gold: #c7ac7a;
+    --primary-color: #ddb6b3;
+    --primary-color2: #e0ab98;
+    --logo-color: #f2d6d3;
+    --text-color: #f8e4df;
+    --gradient-color: linear-gradient(90deg,#e0ab98 0%, #f8e4df 100%);
+    --shadow-color: 10px 10px 30px rgba(221, 182, 179, 0.38);
+    
+/* font family variables */
+--poppins: "Poppins";
+
+}

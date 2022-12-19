@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Project</title>
+
+    <!-- bootstrap css file-->
+    <link rel= "stylesheet" href= "./css/bootstrap.min.css">
+
+    <!-- font awesome icons-->
+    <link rel= "stylesheet" href="./css/all.min.css">
+
+    <!-- custom css file -->
+    <link rel= "stylesheet" href= "./css/style.css">
+</head>
+<body>
+
+    <!-- Start Header Area -->
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Chloe Wong </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Hobbies</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <!-- End Header Area -->
+
+    <!-- Start Main Area-->
+    <main class= "site-main"> 
+
+        <!-- Start Banner Area -->
+            <section class="site-banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 site-title">
+                            <h3 class="title-text"> Hello </h3> 
+                            <h1 class="title-text text-uppercase"> I am Chloe</h1>
+                            <h4 class= "title-text text-uppercase"> M.S. Candidate in Computer Science</h4>
+                            <div class="site-buttons">
+                                <div class=" "d-flex flex-row flex wrap"> 
+                                    <br> <br>
+                                    <button type= "button" class= "btn button primary-button mr-4 text-uppercase"> Contact Me</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-12 banner-image">
+                            <img src="./img/cinnamoroll.jpeg" alt=" banner-img" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- End Banner Area -->
+
+        <!-- Start About -->
+        <section class="about-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-image">
+                            <img src="/img/Cinnamoroll-about.png" alt="about" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 about-title">
+                        <h2 class="text-uppercase pt-5">
+                            <span> Let me </span>
+                            <span> Introduce </span>
+                            <span> Myself </span>
+                        </h2>
+
+                        <div class="paragraph py-4w-75">
+                            <p class= "para">
+                                Last year, I graduated Fordham College of Lincoln Center with a bachelor's degree in New Media and Digital Design. Throughout my time at FCLC, I prototyped several application to improve the efficency of everyday life.
+                            </p>
+                            <p class= "para">
+                                Currently, I am studying computer science at Fordham Graduate School of Arts and Sciences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End About -->
+
+        <!-- Start Hobbies -->
+        <section class= "hobbies-area">
+            <div class="container">
+                <div class="hobbies-title pb-5">
+                    <h1 class="text-uppercase title-h1"> Hobbies</h1>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class= "active" id="btn1" data-filter="*"> All </button>
+                    <button type="button" data-filter=".dance">Dance</button> 
+                    <button type="button" data-filter=".kickboxing"> Kickboxing</button> 
+                </div>
+
+                <div class="row grid">
+                    <div class= "col-lg-4 col-md-6 col-sm-12 element-item dance">
+                        <div class= "myphotos">
+                            <div class="img">
+                                <img src= "./img/hobbies_1.JPG" alt="hobbies-1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class= "col-lg-4 col-md-6 col-sm-12 element-item dance">
+                        <div class= "myphotos">
+                            <div class="img">
+                                <img src= "./img/hobbies_2.PNG" alt="hobbies-2">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class= "col-lg-4 col-md-6 col-sm-12 element-item dance">
+                        <div class= "myphotos">
+                            <div class="img">
+                                <img src= "./img/hobbies_3.JPG" alt="hobbies-3">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class= "col-lg-4 col-md-6 col-sm-12 element-item dance">
+                        <div class= "myphotos">
+                            <div class="img">
+                                <img src= "./img/hobbies_4.JPG" alt="hobbies-4">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class= "col-lg-4 col-md-6 col-sm-12 element-item kickboxing">
+                        <div class= "myphotos">
+                            <div class="img">
+                                <img src= "./img/hobbies_5.JPG" alt="hobbies-5">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class= "col-lg-4 col-md-6 col-sm-12 element-item dance">
+                        <div class= "myphotos">
+                            <div class="img">
+                                <img src= "./img/hobbies_6.JPG" alt="hobbies-6">
+                            </div>
+                        </div>
+                    </div>
+                    <div class= "col-lg-4 col-md-6 col-sm-12 element-item dance">
+                        <div class= "myphotos">
+                            <div class="img">
+                                <img src= "./img/hobbies_7.JPG" alt="hobbies-7">
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+
+        <!-- End Hobbies -->
+        
+
+ 
+    </main>
+     <!-- End Main Area-->
+
+    
+    <!--Jquery js file-->
+    <script src="./js/jquery.3.6.2.js"></script>
+
+    <!--bootstrap js file-->
+    <script src= "./js/bootstrap.min.js"> </script>
+
+    <!-- isotope js library-->
+    <script src= "./vendor/isotope/isotope.min.js"></script>
+
+    <!-- custom js file-->
+    <script src="./js/main.js"></script>
+
+</body> 
+</html>

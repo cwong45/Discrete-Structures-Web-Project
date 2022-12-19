@@ -1,0 +1,153 @@
+
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./paritals/_variable.css);
+
+/* global styling */
+@import url(./paritals/_global.css);
+
+/* Start Navigation Bar*/
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+    font-family: "Poppins", cursive;
+    font-size: 28px;
+    color: var(--cinnamoroll-pink);
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--poppins);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: #bebebe;
+}
+
+.header_area .main-menu .navbar-nav .active a{
+   background: var(--cinnamoroll-gold);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--cinnamoroll-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+ }
+/* End Navigation Bar*/
+
+/* Start Banner Area */
+.site-main .site-banner .site-title .title-text{
+    font-family: var(--poppins);
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+    color: var(--primary-color2);
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 13vw;
+    background: var(--text-color);
+    display: inline-block;
+    margin-left: 3%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+    color: var(--primary-color2);
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.site-main .site-banner .banner-image> img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+.title-text{
+    font:normal bold 50px/72px var(--poppins)
+}
+
+/* End Banner Area */
+
+/* Start About Section */
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+ 
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/60px var(--poppins);
+    letter-spacing: 10px;
+    color: var(--primary-color2);
+    
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+    font-family: var(--poppins);
+}
+
+.site-main .about-area .about-image> img{
+    padding: 3rem 3;
+    width: 40rem;
+}
+
+/* End About Section */
+
+/* Start Hobbies Section*/
+.site-main .hobbies-area h1{
+    letter-spacing: 10px;
+    color: var(--primary-color2);
+    font:normal bold 50px/72px var(--poppins);
+}
+
+.site-main .hobbies-area .button-group button{
+    color: var(--primary-color);
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--poppins);
+    text-transform: uppercase;
+}
+
+.site-main .hobbies-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .hobbies-area .row .myphotos{
+    padding: 3rem 0;
+
+}
+
+/* End Hobbies Section */
+
+/* Start Contact Section */
+.site-main .contact-banner .contact-title h1{
+    letter-spacing: 10px;
+    color: var(--primary-color2);
+    font:normal bold 50px/72px var(--poppins);
+}
+
+.site-main .contact-banner .contact-title h3{
+    
+    font-weight: 500;
+    font: normal 500 16px/130px var(--poppins);
+    color: var(--primary-color2);
+}
+
+/* End Contact Section */
